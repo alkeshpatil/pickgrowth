@@ -7,15 +7,16 @@ import SnapTwo from "../components/home/SnapTwo";
 
 export default function Home() {
   return (
-    <>
-      <div className="snap-y font-body  snap-mandatory bg-[#161616] scrollbar-hide h-screen w-screen overflow-scroll ">
-        <Navbar />
+    // <div className="flex items-center justify-center">
+      <div className="snap-y font-body  snap-mandatory bg-[#161616] scrollbar-hide h-screen  overflow-scroll ">
+        {/* <Navbar /> */}
         <Snap />
         <SnapTwo />
         <SnapThree />
         <SnapFour />
         <SnapFive />
+       
       </div>
-    </>
+    // </div>
   );
 }
