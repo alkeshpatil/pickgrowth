@@ -1,14 +1,16 @@
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", ],
   theme: {
-    extend: {
-      color: {
-        black : "#161616"
 
+    color: {
+      pg: {
+        100: "#6C63FF"
       },
+
+
       fontFamily: {
-        body: ['Poppins'],
-        logo:['Righteous']
+        logo: ['Righteous'],
+        body: ['Poppins']
       }
 
     },
