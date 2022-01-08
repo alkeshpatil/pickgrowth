@@ -10,8 +10,8 @@ function SnapThree() {
   const [image, setimage] = useState(snapStocks);
 
   return (
-    <div className="snap-center w-screen text-white justify-center  flex  h-screen  border-r-2 ">
-      <div className="w-1/2  flex flex-col  items-center justify-center  ">
+    <div className="snap-center w-screen text-white justify-center sm:text-left text-center  flex flex-col sm:flex-row h-screen  border-r-2 ">
+      <div className="sm:w-1/2 w-full  flex flex-col  items-center justify-center  ">
         <div className=" ">
           <HeadOne text={"Make best out of your money"} />
           <Buttons
@@ -31,8 +31,8 @@ function SnapThree() {
           />
         </div>
       </div>
-      <div className="w-1/2    to-transparent from-[#2B2B2B] flex items-center justify-center  ">
-        <div className="w-[65%] transition ease-in-out duration-1000 ">
+      <div className="sm:w-1/2 w-full   to-transparent from-[#2B2B2B] flex items-center justify-center  ">
+        <div className="sm:w-[65%] pt-11 sm:pt-1 transition ease-in-out duration-1000 ">
           <Image src={image} className="" />
         </div>
       </div>
