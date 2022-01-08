@@ -5,9 +5,9 @@ import HeadOne from "../heading";
 function SnapFive() {
   return (
     <div className="snap-center w-screen text-white justify-center  flex  h-screen  border-r-2 ">
-      <div className=" w-[60%]   flex flex-col  justify-evenly items-center">
+      <div className=" sm:w-[60%] w-full  flex flex-col  justify-evenly items-center">
         <HeadOne text={"Our Happy Coustomer Family"} />
-        <div className=" flex ">
+        <div className=" flex   ">
           <Cards />
           <Cards />
           <Cards />

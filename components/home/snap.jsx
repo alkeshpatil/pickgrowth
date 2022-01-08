@@ -4,9 +4,12 @@ import HeadOne from "../heading";
 import Buttons from "../Buttons";
 function Snap() {
   return (
-    <div className="snap-center w-screen text-white justify-center  flex  h-screen  border-r-2 ">
-      <div className="w-1/3  flex flex-col items-center justify-center  ">
-        <HeadOne text={"Its not your earning saving makes you rich"} />
+    <div className="snap-center w-screen  text-white justify-end sm:text-left text-center  flex sm:flex-row flex-col  h-screen  border-r-2 ">
+      <div className="sm:w-1/3 w-full  flex flex-col  items-center justify-center  ">
+        <HeadOne
+          text={"Its not your earning saving makes you rich"}
+          extra={" "}
+        />
         <span className="text-purple-700"></span>
         <p className="ml-4 mr-4">
           Just compound your wealth and grow rich by your wealth managment
@@ -17,7 +20,7 @@ function Snap() {
           <Buttons text="Download and try" color=" bg-gray-700" />
         </div>
       </div>
-      <div className="w-1/2   flex items-center justify-center  ">
+      <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex items-center justify-center  ">
         <Image src={snap1} alt="Product snap 1" />
       </div>
     </div>
