@@ -3,31 +3,34 @@ import HeadOne from "../heading";
 import Input from "../Input";
 export default function SnapFour() {
   return (
-    <div className="snap-center w-screen text-white  flex h-screen justify-center  border-r-2 ">
-      <div className=" w-[60%]   flex flex-col  justify-evenly items-center">
-        <HeadOne text={"Free tracks"} />
-        <div className="w-full">
-          <InputArea />
-          <Recommentation />
-        </div>
-        <p>Want to know how to use it ?</p  >
-        <div className="w-full flex flex-col  justify-center items-center">
-          <p>Powerd By</p>
-          <p className="font-logo ">pick growth</p>
+    <>
+      <div className="h-28 w-full"></div>
+      <div className="snap-center  text-white border  flex h-screen justify-center  ">
+        <div className=" w-full sm:w-[60%] text-center sm:text-left  flex flex-col  justify-evenly items-center">
+          <HeadOne text={"Free tracks"} />
+          <div className="w-full">
+            <InputArea />
+            <Recommentation />
+          </div>
+          <p>Want to know how to use it ?</p>
+          <div className="w-full flex flex-col  justify-center items-center">
+            <p>Powerd By</p>
+            <p className="font-logo ">pick <span className="text-[#]"></span> growth</p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
 function InputArea() {
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full  flex items-center justify-center">
       <Input
         placeholder={" Search stocks 'ex : Adani Green'"}
         extraclass={" w-[60%]"}
       />
-      <Buttons text="Search" color={" bg-purpule-700 bg-purple-700"} />
+      <Buttons text="Search" color={"  bg-purple-700"} />
     </div>
   );
 }

@@ -1,21 +1,15 @@
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", ],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-
-    color: {
-      pg: {
-        100: "#6C63FF"
-      },
-
-
+    extend: {
       fontFamily: {
-        logo: ['Righteous'],
-        body: ['Poppins']
+        'body': ['Poppins'],
+        'logo': ['Righteous']
       }
-
     },
   },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ],
+  plugins: [require('tailwind-scrollbar-hide')],
 }

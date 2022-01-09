@@ -5,8 +5,7 @@ function Buttons({ onclick, text, color, imgUrl }) {
     <button
       onClick={onclick}
       className={
-        "text-white p-3 pr-5 pl-5 m-2  font-medium rounded-md " +
-        color
+        "text-white p-3 pr-5 pl-5 mr-2  font-medium rounded-md " + color
       }
     >
       {imgUrl}
