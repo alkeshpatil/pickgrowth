@@ -10,10 +10,10 @@ function SnapFive() {
 
         <div className="   flex flex-col  justify-evenly items-center">
           <HeadOne text={"Our Happy Coustomer Family"} />
-          <div className=" flex sm:flex-row flex-col   ">
-            <Cards extra={" border sm:w-auto w-80"}/>
-            <Cards extra={" border sm:w-auto w-80"}/>
-            <Cards extra={" border sm:w-auto w-80"}/>
+          <div className=" flex  scrollbar-hide w-screen overflow-x-scroll   ">
+            <Cards extra={" border sm:w-auto w-full"}/>
+            <Cards extra={" border sm:w-auto w-full"}/>
+            <Cards extra={" border sm:w-auto w-full"}/>
           </div>
         </div>
       </div>
