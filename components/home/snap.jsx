@@ -4,26 +4,31 @@ import HeadOne from "../heading";
 import Buttons from "../Buttons";
 function Snap() {
   return (
-    <div className="snap-center w-screen  text-white justify-end sm:text-left text-center  flex sm:flex-row flex-col  h-screen  border-r-2 ">
-      <div className="sm:w-1/3 w-full  flex flex-col  items-center justify-center  ">
+    <>
+    <div className="h-28 sm:h-0  snap-center w-full"></div>
+    <div className=" w-full text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
+      <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col  items-center justify-center ">
         <HeadOne
-          text={"Its not your earning saving makes you rich"}
+          text={"Investment just got smarter and reliable."}
           extra={" "}
         />
         <span className="text-purple-700"></span>
-        <p className="ml-4 mr-4">
-          Just compound your wealth and grow rich by your wealth managment
-          skills and to make your work easy we have something for you
+        <p className="mb-4 text-gray-500 sm:text-1xl text-sm  ">
+          Pick Growth is the fintech solution for all. We're here to help
+          growing your wealth and help you gain money confidence. Our custom
+          tailor made portfolios would help you immensely achieve your goals.
         </p>
         <div className=" w-full">
-          <Buttons text="What's that" color=" bg-purple-700" />
-          <Buttons text="Download and try" color=" bg-gray-700" />
+          <Buttons text="Get started" color=" bg-purple-700" />
+          {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
         </div>
       </div>
       <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex items-center justify-center  ">
         <Image src={snap1} alt="Product snap 1" />
       </div>
     </div>
+    </>
+
   );
 }
 
