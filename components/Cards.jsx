@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import profile from "../assets/profile.svg";
-export default function Cards() {
+export default function Cards({extra}) {
   return (
-    <div className=" p-10  flex m-8  flex-col  rounded-md bg-pg-purple ">
+    <div className={" p-10  flex m-8  flex-col  rounded-md bg-pg-purple " + extra}>
       <div className="flex mt-6">
         <Image src={profile} width={100} height={100} className="m-2" />
         <div className="ml-7">

@@ -4,20 +4,20 @@ import HeadOne from "../heading";
 
 function SnapFive() {
   return (
-    <>
+    <div className="snap-center h-full">
       <div className="h-28 w-full"></div>
-      <div className="snap-center  text-white justify-center  flex h-full   ">
+      <div className="  text-white justify-center  flex    ">
 
         <div className="   flex flex-col  justify-evenly items-center">
           <HeadOne text={"Our Happy Coustomer Family"} />
-          <div className=" flex   ">
-            <Cards />
-            <Cards />
-            <Cards />
+          <div className=" flex sm:flex-row flex-col   ">
+            <Cards extra={" border sm:w-auto w-80"}/>
+            <Cards extra={" border sm:w-auto w-80"}/>
+            <Cards extra={" border sm:w-auto w-80"}/>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

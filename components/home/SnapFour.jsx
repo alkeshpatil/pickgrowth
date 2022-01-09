@@ -3,9 +3,9 @@ import HeadOne from "../heading";
 import Input from "../Input";
 export default function SnapFour() {
   return (
-    <>
-      <div className="h-28 w-full"></div>
-      <div className="snap-center  text-white border  flex h-screen justify-center  ">
+    <div className="snap-center">
+      <div className="sm:h-0 h-28 border w-full"></div>
+      <div className="  text-white   flex h-screen justify-center  ">
         <div className=" w-full sm:w-[60%] text-center sm:text-left  flex flex-col  justify-evenly items-center">
           <HeadOne text={"Free tracks"} />
           <div className="w-full">
@@ -15,11 +15,13 @@ export default function SnapFour() {
           <p>Want to know how to use it ?</p>
           <div className="w-full flex flex-col  justify-center items-center">
             <p>Powerd By</p>
-            <p className="font-logo ">pick <span className="text-[#]"></span> growth</p>
+            <p className="font-logo ">
+              pick <span className="text-[#]"></span> growth
+            </p>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
@@ -36,7 +38,7 @@ function InputArea() {
 }
 function Recommentation() {
   return (
-    <div className="w-full flex justify-center ">
+    <div className="w-full text-sm mt-3 flex justify-center ">
       <Buttons
         text="TCS"
         color={
