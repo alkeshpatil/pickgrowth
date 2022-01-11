@@ -5,7 +5,7 @@ function Navbar({ children }) {
     <div className=" bg-[#161616]  flex justify-center  ">
       {/* bg-gradient-to-t to-[#161616] from-transparent */}
 
-      <div className="font-body pl-10 sm:p-0 fixed w-full sm:w-[80%] flex justify-between items-center text-cyan-50 h-28 ">
+      <div className="font-body pl-10 sm:p-0 bg-black fixed w-full sm:w-[80%] flex justify-between items-center text-cyan-50 h-28 ">
         <div className=" font-extrabold font-logo z-10 sm:text-4xl text-2xl w-1/2 h-full flex  items-center">
           <Link href="/">
             <span>
