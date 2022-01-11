@@ -3,8 +3,10 @@ import HeadOne from "../heading";
 
 export default function SnapSeven() {
   return (
-    <>
-      <div className=" w-full snap-center text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
+    <div className="snap-center">
+    <div className="h-28 sm:h-0 w-full"></div>
+
+      <div className=" w-full  text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">
           <HeadOne text="Contact Us" extra={" text-left"} />
 
@@ -21,14 +23,12 @@ export default function SnapSeven() {
             product or related services. Terms and conditions of the website are
             applicable.
           </p>
-          <div className=" w-full">
-            {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
-          </div>
+          
         </div>
-        <div className="sm:w-1/2 w-full h-1/2  sm:h-full  flex items-center justify-center">
+        <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex  justify-center">
           <form
             action=""
-            className=" p-10 w-[80%] flex flex-col border rounded-md"
+            className=" p-10 w-full sm:w-[80%] flex flex-col  rounded-md"
           >
             <HeadOne text="Contact Us" extra={" text-left"} />
 
@@ -45,6 +45,6 @@ export default function SnapSeven() {
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 }

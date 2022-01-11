@@ -4,9 +4,11 @@ import Input from "../Input";
 export default function SnapSix() {
   return (
     <div className="snap-center">
-      <div className=" sm:h-0  border  w-full"></div>
+      <div className=" sm:h-0 text-white h-20    w-full">
+       
+      </div>
 
-      <div className=" w-full  text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
+      <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">
           <HeadOne text="How to get started?" extra={" text-left"} />
           <span className="text-purple-700"></span>
