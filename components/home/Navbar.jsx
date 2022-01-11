@@ -15,7 +15,7 @@ function Navbar({ children }) {
         </div>
 
         <div className=" w-1/2 h-full flex justify-evenly text-sm   items-center">
-          <div className="text-gray-400">
+          {/* <div className="text-gray-400">
             {" "}
             <Link href="/daily-report">Daily Report</Link>
           </div>
@@ -25,7 +25,7 @@ function Navbar({ children }) {
           <div className="text-gray-400">
             {" "}
             <Link href="/daily-report/flls-dlls">FIIs | DIIs Traded</Link>
-          </div>
+          </div> */}
           {/* <div className="text-gray-400">
             {" "}
             <Link href="/daily-report"></Link>

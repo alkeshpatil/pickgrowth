@@ -26,12 +26,12 @@ function SnapThree() {
             <Buttons
               text="Stocks"
               onclick={() => setimage(snapStocks)}
-              color=" bg-purple-700"
+              color=" bg-purple-700 mb-2"
             />
             <Buttons
               text="Mutual Fund"
               onclick={() => setimage(snapMutualfund)}
-              color=" bg-gray-700"
+              color=" bg-gray-700 mb-2"
             />
             <Buttons
               text="Insaurance"

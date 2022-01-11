@@ -8,9 +8,9 @@ function SnapTwo() {
     < div className="snap-center">
       <div className="h-28 w-full"></div>
 
-      <div className=" border text-white justify-center  flex h-screen   ">
+      <div className="  text-white justify-center  flex h-screen   ">
         <div className=" flex flex-col justify-center items-center h-[90%] ">
-          <div className="sm:p-0 border p-10">
+          <div className="sm:p-0  p-10">
           <HeadOne extra=" " text={"It’s not just what technology can do but what people think it should do. Pick Growth App helps you track all your and family investments on the go."} />
             <Buttons text={"Download"} color={" bg-purple-700 "} />
           </div>
