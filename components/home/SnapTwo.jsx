@@ -6,7 +6,7 @@ import HeadOne from "../heading";
 function SnapTwo() {
   return (
     < div className="snap-center">
-      <div className="h-28 w-full"></div>
+      {/* <div className="h-28 w-full"></div> */}
 
       <div className="  text-white justify-center  flex h-screen   ">
         <div className=" flex flex-col justify-center items-center h-[90%] ">

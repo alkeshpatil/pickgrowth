@@ -11,7 +11,7 @@ export default function Home() {
   return (
     // <div className="flex items-center justify-center">
     // <div className=" flex justify-center  ">
-    <div className=" font-body sm:w-[80%] w-full snap-mandatory bg-[#161616] scrollbar-hide h-screen  overflow-scroll ">
+    <div className="  overflow-x-hidden bg-[#161616] font-body sm:w-[80%] w-full snap-mandatory  scrollbar-hide h-screen  overflow-scroll ">
       {/* <Navbar /> */}
       <Snap />
       <SnapTwo />

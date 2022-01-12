@@ -1,9 +1,9 @@
 import HeadOne from "../heading";
 import Buttons from "../Buttons";
 import Image from "next/image";
-import snapStocks from "../../assets/snapStocks.png";
-import snapMutualfund from "../../assets/snapMutualfund.png";
-import snapInsaurance from "../../assets/snapInsaurance.png";
+import snapStocks from "../../assets/snapStocks.svg";
+import snapMutualfund from "../../assets/snapMutualfund.svg";
+import snapInsaurance from "../../assets/snapInsaurance.svg";
 import { useState } from "react";
 
 function SnapThree() {
@@ -40,9 +40,9 @@ function SnapThree() {
             />
           </div>
         </div>
-        <div className="sm:w-1/2 w-full  to-transparent from-[#2B2B2B] flex items-center justify-center  ">
-          <div className="sm:w-[65%] pt-20 sm:pt-1 transition ease-in-out duration-1000 ">
-            <Image src={image} className="" />
+        <div className="sm:w-1/2 w-full   to-transparent from-[#2B2B2B] flex items-center justify-center  ">
+          <div className=" w-full   pt-20 sm:pt-1 transition ease-in-out duration-1000 ">
+            <Image src={image} width={1300} height={1500} className="border w-full" />
           </div>
         </div>
       </div>
