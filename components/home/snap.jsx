@@ -23,8 +23,8 @@ function Snap() {
             {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
           </div>
         </div>
-        <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out translate-x-10 duration-500 ">
-          <Image src={snap1} alt="Product snap 1" />
+        <div className="sm:w-1/2 sm:p-10 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out duration-1000 ">
+          <Image src={snap1} alt="Product snap 1" className="" />
         </div>
       </div>
     </>

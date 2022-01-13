@@ -26,7 +26,7 @@ function SnapThree() {
             <Buttons
               text="Stocks"
               onclick={() => setimage(snapStocks)}
-              color=" bg-purple-700 mb-2"
+              color=" bg-purple-700 mb-2 "
             />
             <Buttons
               text="Mutual Fund"
@@ -40,9 +40,9 @@ function SnapThree() {
             />
           </div>
         </div>
-        <div className="sm:w-1/2 w-full   to-transparent from-[#2B2B2B] flex items-center justify-center  ">
-          <div className=" w-full border   sm:pt-1 transition ease-in-out duration-1000 ">
-            <Image src={image} width={1300} height={1500} className="border w-full h-full" />
+        <div className="sm:w-1/2 w-full   to-transparent from-[#2B2B2B] flex items-center justify-center transition ease-in-out duration-1000  ">
+          <div className=" w-full    sm:pt-1 transition ease-in-out duration-1000 ">
+            <Image src={image} width={1300} height={1500} className="border hover:bg-black w-full h-full transition ease-in-out duration-1000" />
           </div>
         </div>
       </div>
