@@ -13,7 +13,7 @@ function Snap() {
             extra={" "}
           > Investment just got smarter and reliable.</HeadOne>
           <span className="text-purple-700"></span>
-          <p className="mb-4 text-gray-500 sm:text-1xl text-sm  ">
+          <p className="mb-4 text-gray-400 sm:text-1xl text-sm  ">
             Pick Growth is the fintech solution for all. We're here to help
             growing your wealth and help you gain money confidence. Our custom
             tailor made portfolios would help you immensely achieve your goals.

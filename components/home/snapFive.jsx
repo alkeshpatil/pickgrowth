@@ -4,21 +4,39 @@ import HeadOne from "../heading";
 
 function SnapFive() {
   return (
-    <div className="snap-center h-full ">
-      {/* <div className="h-28 w-full"></div> */}
-      <div className="  text-white  h-full flex    ">
+    <div className="  p-10">
+      <HeadOne text={""} extra={" text-white w-full"}>
+        Our Happy Coustomer Family
+      </HeadOne>
+      <p className="text-gray-400 text-sm">
+        {" "}
+        Amet tenetur distinctio qui ipsa voluptates mollitia libero cum id
+        molestias non incidunt, quisquam sunt nihil impedit assumenda aliquid
+        obcaecati porro.{" "}
+      </p>
+      <div className="flex scrollbar-hide h-full sm:p-10 mt-10 overflow-x-scroll ">
+      <Cards extra={"    sm:w-auto "}/>
+      <Cards extra={"   sm:w-auto "}/>
+      <Cards extra={"   sm:w-auto "}/>
 
-        <div className="   flex flex-col  sm:justify-center  ">
-          <HeadOne text={""} extra={"  w-full"} >Our Happy Coustomer Family</HeadOne>
-          {/* <div className=" flex   scrollbar-hide  sm:overflow-x-hidden  overflow-x-scroll   ">
-            <Cards extra={"  sm:w-auto "}/>
-            <Cards extra={"  sm:w-auto "}/>
-            <Cards extra={"  sm:w-auto "}/>
-          </div> */}
-        </div>
+
+
       </div>
     </div>
   );
 }
 
 export default SnapFive;
+
+// <div className="snap-center h-full ">
+//   {/* <div className="h-28 w-full"></div> */}
+//   <div className="  text-white  h-full flex    ">
+
+//     <div className="   flex flex-col  sm:justify-center  ">
+//       {/* <div className=" flex   scrollbar-hide  sm:overflow-x-hidden  overflow-x-scroll   ">
+//         <Cards extra={"  sm:w-auto "}/>
+//         <Cards extra={"  sm:w-auto "}/>
+//       </div> */}
+//     </div>
+//   </div>
+// </div>

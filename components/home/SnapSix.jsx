@@ -28,13 +28,13 @@ export default function SnapSix() {
           </div>
         </div>
         <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex items-center justify-center">
-          <form action="" className=" p-10 flex flex-col border rounded-md">
-            <HeadOne text="Contact Us" extra={" text-left"} />
-            <Input placeholder={"Name"} />
-            <Input placeholder={"email"} />
-            <Input placeholder={"Phone no."} />
-            <Input placeholder={"comments"} />
-            <Buttons text="Get started" color=" bg-purple-700 m-2" />
+          <form action="" className=" p-10 flex flex-col  rounded-md">
+            <HeadOne text="" extra={"  text-left"} >Contact Us</HeadOne>
+            <Input placeholder={"Name"} extraclass={" m-0 mb-2"} />
+            <Input placeholder={"email"} extraclass={" m-0 mb-2"}/>
+            <Input placeholder={"Phone no."} extraclass={" m-0 mb-2"} />
+            <Input placeholder={"comments"} extraclass={" m-0 mb-3"}/>
+            <Buttons text="Get started" color=" bg-purple-700 mr-0  " />
           </form>
         </div>
       </div>
