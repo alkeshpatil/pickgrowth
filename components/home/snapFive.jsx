@@ -4,7 +4,7 @@ import HeadOne from "../heading";
 
 function SnapFive() {
   return (
-    <div className="  p-10">
+    <div className="  sm:p-0 sm:text-center p-10">
       <HeadOne text={""} extra={" text-white w-full"}>
         Our Happy Coustomer Family
       </HeadOne>

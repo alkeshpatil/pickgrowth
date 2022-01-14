@@ -4,7 +4,7 @@ import HeadOne from "../heading";
 export default function SnapSeven() {
   return (
     <div className="snap-center">
-      <div className="h-28 sm:h-0 w-full"></div>
+  
 
       <div className=" w-full  text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">

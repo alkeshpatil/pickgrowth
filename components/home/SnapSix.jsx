@@ -1,12 +1,10 @@
 import Buttons from "../Buttons";
 import HeadOne from "../heading";
 import Input from "../Input";
-export default function SnapSix() {
+export default function SnapSix( {setRef} ) {
   return (
-    <div className="snap-center">
-      <div className="  sm:h-0 text-white h-20    w-full">
-       
-      </div>
+    <div className="snap-center" ref={setRef} >
+      
 
       <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">

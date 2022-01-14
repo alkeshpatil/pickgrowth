@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Navbar from "../components/home/Navbar";
 import Snap from "../components/home/snap";
 import SnapFive from "../components/home/snapFive";
@@ -8,21 +9,22 @@ import SnapThree from "../components/home/SnapThree";
 import SnapTwo from "../components/home/SnapTwo";
 
 export default function Home() {
+  const getStartedSection = useRef(null);
+  const goToGetStartedSection = () => {
+    console.log("clicked");
+    window.scrollTo({
+      top: getStartedSection.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
-    // <div className="flex items-center justify-center">
-    // <div className=" flex justify-center  ">
     <div className="  overflow-x-hidden bg-[#161616] font-body sm:w-[80%] w-full snap-mandatory  scrollbar-hide h-screen  overflow-scroll ">
-      {/* <Navbar /> */}
-      <Snap />
+      <Snap scrollFun={goToGetStartedSection} />
       <SnapTwo />
       <SnapThree />
-      {/* <SnapFour /> */}
       <SnapFive />
-      <SnapSix />
+      <SnapSix setRef={getStartedSection} />
       <SnapSeven />
-      {/* </div> */}
-      {/* </div> */}
-     
     </div>
   );
 }
