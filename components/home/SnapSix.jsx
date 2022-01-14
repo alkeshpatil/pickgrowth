@@ -10,7 +10,7 @@ export default function SnapSix() {
 
       <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">
-          <HeadOne text="How to get started?" extra={" text-left"} />
+          <HeadOne text="" extra={" text-left"} >How to get started?</HeadOne>
           <span className="text-purple-700"></span>
           <p className="mb-4 text-gray-300 sm:text-1xl text-lg font-regular    ">
             We believe investment is risky and should be handled carefully.

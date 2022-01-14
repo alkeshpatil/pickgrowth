@@ -11,12 +11,12 @@ function SnapThree() {
 
   return (
     <>
-      <div className="h-28 w-full"></div>
+      {/* <div className="h-28 w-full"></div> */}
 
       <div className="snap-center  text-white justify-center sm:text-left text-  sm:p-0   flex flex-col sm:flex-row h-screen  ">
-        <div className="sm:w-1/2 w-full p-10  flex flex-col  justify-center  ">
+        <div className="sm:w-1/2  w-full p-10 sm:p-0 flex flex-col  justify-center  ">
           <div className=" ">
-            <HeadOne text={"Make best out of your money"} />
+            <HeadOne text={""} > Make best out of your money</HeadOne>
             <p className="mb-4 text-gray-500 sm:text-1xl text-sm ">
               Based on income, goals and plans we pick the most appropriate
               Mutual Fund schemes for you keeping your benefits on highest
@@ -42,7 +42,7 @@ function SnapThree() {
         </div>
         <div className="sm:w-1/2 w-full   to-transparent from-[#2B2B2B] flex items-center justify-center transition ease-in-out duration-1000  ">
           <div className=" w-full    sm:pt-1 transition ease-in-out duration-1000 ">
-            <Image src={image} width={1300} height={1500} className="border hover:bg-black w-full h-full transition ease-in-out duration-1000" />
+            <Image src={image} width={1300} height={1500} className="border  w-full h-full transition ease-in-out duration-1000" />
           </div>
         </div>
       </div>

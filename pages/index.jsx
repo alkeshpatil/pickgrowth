@@ -16,13 +16,13 @@ export default function Home() {
       <Snap />
       <SnapTwo />
       <SnapThree />
-      <SnapFour />
+      {/* <SnapFour /> */}
       <SnapFive />
       <SnapSix />
       <SnapSeven />
       {/* </div> */}
       {/* </div> */}
-      //{" "}
+     
     </div>
   );
 }

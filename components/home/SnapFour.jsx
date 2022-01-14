@@ -3,7 +3,7 @@ import HeadOne from "../heading";
 import Input from "../Input";
 export default function SnapFour() {
   return (
-    <div className="snap-center">
+    <div className="snap-center bg-black">
       <div className="sm:h-0 h-28  w-full"></div>
       <div className="  text-white   flex h-screen justify-center  ">
         <div className=" w-full sm:w-[60%] text-center sm:text-left  flex flex-col  justify-evenly items-center">

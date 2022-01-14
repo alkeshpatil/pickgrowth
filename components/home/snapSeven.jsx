@@ -4,11 +4,11 @@ import HeadOne from "../heading";
 export default function SnapSeven() {
   return (
     <div className="snap-center">
-    <div className="h-28 sm:h-0 w-full"></div>
+      <div className="h-28 sm:h-0 w-full"></div>
 
       <div className=" w-full  text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">
-          <HeadOne text="Contact Us" extra={" text-left"} />
+          <HeadOne text="" extra={" text-left"} > Contact Us </HeadOne>
 
           <p className="mb-4 text-gray-400 sm:text-1xl text-md font-regular font-light    ">
             Mutual fund investments are subject to market risks. Please read the
@@ -23,14 +23,13 @@ export default function SnapSeven() {
             product or related services. Terms and conditions of the website are
             applicable.
           </p>
-          
         </div>
-        <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex  justify-center">
+        <div className="sm:w-1/2 w-full h-1/2  sm:h-full  flex  sm:items-center justify-center">
           <form
             action=""
             className=" p-10 w-full sm:w-[80%] flex flex-col  rounded-md"
           >
-            <HeadOne text="Contact Us" extra={" text-left"} />
+            <HeadOne text="" extra={" text-left"} >Our info</HeadOne>
 
             <div className=" flex sm:flex-row flex-col justify-between text- mb-2">
               <span className="">Hyderabad </span>

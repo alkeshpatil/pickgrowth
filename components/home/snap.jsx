@@ -9,9 +9,9 @@ function Snap() {
       <div className=" w-full text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
         <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col  items-center justify-center  ">
           <HeadOne
-            text={"Investment just got smarter and reliable."}
+            text={""}
             extra={" "}
-          />
+          > Investment just got smarter and reliable.</HeadOne>
           <span className="text-purple-700"></span>
           <p className="mb-4 text-gray-500 sm:text-1xl text-sm  ">
             Pick Growth is the fintech solution for all. We're here to help
@@ -23,7 +23,7 @@ function Snap() {
             {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
           </div>
         </div>
-        <div className="sm:w-1/2 sm:p-10 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out duration-1000 ">
+        <div className="sm:w-1/2 sm:p-10 pt-16 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out duration-1000 ">
           <Image src={snap1} alt="Product snap 1" className="" />
         </div>
       </div>
