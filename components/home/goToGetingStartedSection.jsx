@@ -4,8 +4,8 @@ export default function GoToGetingStartedSection() {
     console.log(window.scrollTo);
     // console.log(getStartedSection.current.offsetTop);
     window.scrollTo({
-      top: 1000,
-      left: 100,
+      top: 0,
+ 
       behavior: "smooth",
     });
   };

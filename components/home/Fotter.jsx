@@ -16,7 +16,7 @@ export default function Fotter() {
           India
           <span className=""> 🇮🇳 </span>
         </div>
-        <div className=" flex mt-10 ">
+        <div className=" flex mt-10 sm:mt-0 ">
           <Image src={appstore} height={50} width={170} objectFit="contain" />
           <Image src={playstore} height={50} objectFit="contain" />
         </div>
