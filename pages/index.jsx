@@ -10,25 +10,25 @@ import Fotter from '../components/home/Fotter';
 
 export default function Home() {
   const getStartedSection = useRef(null);
-  // const goToGetStartedSection = () => {
-  //   console.log("clicked");
-  //   console.log(window.scrollTo);
-  //   // console.log(getStartedSection.current.offsetTop);
-  //   window.scrollTo({
-  //     top: 1000,
-  //     left: 100,
-  //     behavior: 'smooth'
-  //   });
-  // };
+  const goToGetStartedSection = () => {
+    console.log("clicked");
+    console.log(window.scrollTo);
+    // console.log(getStartedSection.current.offsetTop);
+    window.scrollTo({
+      top: 1000,
+      left: 100,
+      behavior: 'smooth'
+    });
+  };
   return (
     <div className="  overflow-x-hidden bg-[#161616] font-body sm:w-[80%] w-full snap-mandatory  scrollbar-hide h-screen  overflow-scroll ">
       <Snap />
-      <GoToGetingStartedSection />
+      {/* <GoToGetingStartedSection /> */}
       <SnapTwo />
       <SnapThree />
       <SnapFive />
       <SnapSix setRef={getStartedSection} />
-      <SnapSeven />
+      {/* <SnapSeven /> */}
       <Fotter />
     </div>
   );

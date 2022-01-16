@@ -10,7 +10,7 @@ export default function Fotter() {
       <div className="flex flex-col sm:flex-row sm:h-24 p-10 justify-between bg-purple-700 sm:rounded-md w-full items-center ">
         <div className=" ">
           <span className="font-semibold font-body">
-            Ⓒ 2016 - 2022 Pick Growth .{" "}
+            Ⓒ 2018 - {new Date().getFullYear()} Pick Growth .{" "}
           </span>
           All rights reserved , Built with <span className=""> ❤️ </span> in
           India

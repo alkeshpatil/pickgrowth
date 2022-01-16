@@ -3,7 +3,7 @@ import HeadOne from "../heading";
 import Input from "../Input";
 export default function SnapSix( {setRef} ) {
   return (
-    <div className="snap-center" ref={setRef} >
+    <div id="get-started" className="snap-center" ref={setRef} >
       
 
       <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">

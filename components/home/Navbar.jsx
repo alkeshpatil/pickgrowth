@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navbar({ children }) {
   return (
-    <div className=" bg-[#161616] flex justify-center  ">
+    <div className=" scroll-smooth bg-[#161616] flex justify-center  ">
       {/* */}
       <div className="font-body pl-10 sm:p-0 bg-gradient-to-b from-[#161616] to-transparent  fixed z-50 w-full sm:w-[80%] flex justify-between items-center text-cyan-50 h-28 ">
         <div className=" font-extrabold font-logo z-10 sm:text-4xl text-2xl w-1/2 h-full flex  items-center">

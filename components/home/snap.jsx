@@ -2,6 +2,7 @@ import Image from "next/image";
 import snap1 from "../../assets/snap1.svg";
 import HeadOne from "../heading";
 import Buttons from "../Buttons";
+import Link from "next/link";
 function Snap({ scrollFun }) {
   return (
     <>
@@ -20,10 +21,14 @@ function Snap({ scrollFun }) {
           </p>
           <div className=" w-full">
             <Buttons
-              text="Get started"
-              onclick={() => scrollFun()}
+              text=""
+              // onclick={() => scrollFun()}
               color=" bg-purple-700"
-            />
+            >
+              <Link href="#get-started" scroll={true}>
+                Get started
+              </Link>
+            </Buttons>
             {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
           </div>
         </div>

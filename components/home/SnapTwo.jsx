@@ -11,9 +11,10 @@ function SnapTwo() {
           <div className="sm:p-0 sm:text-center p-10">
             <HeadOne extra="  " text={""}>
               It’s not just what technology can
+              do but what people think it should do.
             </HeadOne>
             <p className="mb-4 text-gray-400 ">
-              do but what people think it should do. Pick Growth App helps you
+               Pick Growth App helps you
               track all your and family investments on the go.
             </p>
           </div>

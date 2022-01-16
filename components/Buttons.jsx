@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function Buttons({ onclick, text, color, imgUrl }) {
+function Buttons({ onclick, children , text, color, imgUrl }) {
   return (
     <button
       onClick={onclick}
@@ -9,6 +9,7 @@ function Buttons({ onclick, text, color, imgUrl }) {
         color
       }
     >
+      {children}
       {imgUrl}
       {text}
     </button>
