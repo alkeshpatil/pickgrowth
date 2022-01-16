@@ -20,7 +20,7 @@ function SnapThree() {
     <>
       <div className="h-28 sm:h-0 w-full"></div>
 
-      <div className="snap-center pt-24 sm:pt-0 text-white justify-center sm:text-left text- sm:p-0 flex flex-col sm:flex-row h-screen  ">
+      <div className="snap-center pt-24 sm:pt-0  text-white justify- sm:text-left text- sm:p-0 flex flex-col sm:flex-row h-screen  ">
         <div className="sm:w-1/2  w-full p-7 sm:p-0 flex flex-col  justify-center  ">
           <div className=" sm:mb-4">
             <HeadOne text={""}> Make best out of your money</HeadOne>
@@ -54,7 +54,7 @@ function SnapThree() {
               color={" mb-2 " + color[2]}
             />
           </div>
-          <p className="mb-4 text-gray-300 sm:text-1xl text-md transition ease-in-out duration-1000 ">
+          <p className="mb-4 text-gray-300 sm:text-1xl text-md mt-3 transition ease-in-out duration-1000 ">
             {text.discription}
             <p className="pl-4 pt-4  text-lg text-white ">
               {text.features.map((fe, key) => (

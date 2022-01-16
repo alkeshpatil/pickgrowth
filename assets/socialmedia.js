@@ -18,7 +18,7 @@ module.exports = [{
     },
     {
         title: "linkedin",
-        link: "https://t.me/PickGrowth",
+        link: "https://www.instagram.com/pick_growth",
         img: linkedin
     }, {
         title: "medium",

@@ -5,6 +5,8 @@ import HeadOne from "../heading";
 function SnapFive() {
   return (
     <div className="  sm:p-0 sm:text-center p-7">
+      <div className="h-28 sm:h-0 w-full"></div>
+
       <HeadOne text={""} extra={" text-white w-full"}>
         Our Happy Coustomer Family
       </HeadOne>

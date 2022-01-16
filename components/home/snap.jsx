@@ -19,7 +19,7 @@ function Snap({ scrollFun }) {
             growing your wealth and help you gain money confidence. Our custom
             tailor made portfolios would help you immensely achieve your goals.
           </p>
-          <div className=" w-full">
+          <div className=" w-full ">
             <Buttons
               text=""
               // onclick={() => scrollFun()}
