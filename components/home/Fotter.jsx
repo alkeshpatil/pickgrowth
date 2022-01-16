@@ -33,7 +33,7 @@ export default function Fotter() {
         the use of, or on the reliance of its product or related services. Terms
         and conditions of the website are applicable.
       </div>
-      <div className=" flex items-center p-7 sm:p-0  justify-between">
+      <div className=" flex items-center p-10 sm:p-0  justify-between">
         <div className=" flex mt-6 mb-5">
           <div className=" flex flex-col   mr-5">
             <Image src={bse} height={50} width={50} objectFit="contain" />

@@ -4,6 +4,7 @@ import Input from "../Input";
 export default function SnapSix( {setRef} ) {
   return (
     <div id="get-started" className="snap-center" ref={setRef} >
+      <div className="h-28 sm:h-0 w-full"></div>
       
 
       <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
