@@ -1,4 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
+import socialmedia from "../../assets/socialmedia.js";
 
 function Navbar({ children }) {
   return (
@@ -13,22 +15,12 @@ function Navbar({ children }) {
           </Link>
         </div>
 
-        <div className=" w-1/2 h-full flex justify-evenly text-sm   items-center">
-          {/* <div className="text-gray-400">
-            {" "}
-            <Link href="/daily-report">Daily Report</Link>
-          </div>
-          <div className="text-gray-400">
-            <Link href="/daily-report/loser-gainer">Gain | Losse</Link>{" "}
-          </div>
-          <div className="text-gray-400">
-            {" "}
-            <Link href="/daily-report/flls-dlls">FIIs | DIIs Traded</Link>
-          </div> */}
-          {/* <div className="text-gray-400">
-            {" "}
-            <Link href="/daily-report"></Link>
-          </div> */}
+        <div className=" sm:w-1/2 p-10 h-full flex justify-evenly text-sm cursor-pointer  items-center">
+          {socialmedia.map((media, index) => (
+            <Link href={media.link} className=" cursor-pointer" >
+            <Image key={index} src={media.img} />
+            </Link>
+          ))}
         </div>
       </div>
       {children}
