@@ -3,7 +3,7 @@ import Image from "next/image";
 import profile from "../assets/profile.svg";
 export default function Cards({extra}) {
   return (
-    <div className={" p-10  flex mr-3 shadow-2xl flex-col min-w-full sm:min-w-0 w-0 rounded-md bg-pg-purple " + extra}>
+    <div className={" p-7  flex mr-3 shadow-2xl flex-col min-w-full sm:min-w-0 w-0 rounded-md bg-pg-purple " + extra}>
       <div className="flex mt-6">
         <Image src={profile} width={100} height={100} className="m-2" />
         <div className="ml-7">

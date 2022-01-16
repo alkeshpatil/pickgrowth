@@ -4,7 +4,7 @@ import HeadOne from "../heading";
 
 function SnapFive() {
   return (
-    <div className="  sm:p-0 sm:text-center p-10">
+    <div className="  sm:p-0 sm:text-center p-7">
       <HeadOne text={""} extra={" text-white w-full"}>
         Our Happy Coustomer Family
       </HeadOne>
@@ -14,7 +14,7 @@ function SnapFive() {
         molestias non incidunt, quisquam sunt nihil impedit assumenda aliquid
         obcaecati porro.{" "}
       </p>
-      <div className="flex scrollbar-hide h-full sm:p-10 mt-10 overflow-x-scroll ">
+      <div className="flex scrollbar-hide h-full sm:p-7 mt-10 overflow-x-scroll ">
       <Cards extra={"    sm:w-auto "}/>
       <Cards extra={"   sm:w-auto "}/>
       <Cards extra={"   sm:w-auto "}/>

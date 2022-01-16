@@ -8,7 +8,7 @@ function Snap({ scrollFun }) {
     <>
       <div className="h-28 sm:h-0  snap-center w-full"></div>
       <div className=" w-full text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
-        <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col  items-center justify-center  ">
+        <div className="sm:w-1/2 flex p-7 sm:p-0 flex-col  items-center justify-center  ">
           <HeadOne text={""} extra={" "}>
             {" "}
             Investment just got smarter and reliable.
@@ -32,7 +32,7 @@ function Snap({ scrollFun }) {
             {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
           </div>
         </div>
-        <div className="sm:w-1/2 sm:p-10 pt-16 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out duration-1000 ">
+        <div className="sm:w-1/2 sm:p-7 pt-16 w-full h-1/2 sm:h-full  flex items-center justify-center transition ease-in-out duration-1000 ">
           <Image src={snap1} alt="Product snap 1" className="" />
         </div>
       </div>

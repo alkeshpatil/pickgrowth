@@ -7,7 +7,7 @@ export default function SnapSix( {setRef} ) {
       
 
       <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
-        <div className="sm:w-1/2 flex p-10 sm:p-0 flex-col    justify-center ">
+        <div className="sm:w-1/2 flex p-7 sm:p-0 flex-col    justify-center ">
           <HeadOne text="" extra={" text-left"} >How to get started?</HeadOne>
           <span className="text-purple-700"></span>
           <p className="mb-4 text-gray-300 sm:text-1xl text-lg font-regular    ">
@@ -26,7 +26,7 @@ export default function SnapSix( {setRef} ) {
           </div>
         </div>
         <div className="sm:w-1/2 w-full h-1/2 sm:h-full  flex items-center justify-center">
-          <form action="" className=" p-10 flex flex-col  rounded-md">
+          <form action="" className=" p-7 flex flex-col  rounded-md">
             <HeadOne text="" extra={"  text-left"} >Contact Us</HeadOne>
             <Input placeholder={"Name"} extraclass={" m-0 mb-2"} />
             <Input placeholder={"email"} extraclass={" m-0 mb-2"}/>

@@ -8,7 +8,7 @@ function SnapTwo() {
     <div className="snap-center">
       <div className="   text-white sm:justify-center  flex    ">
         <div className=" flex flex-col sm:justify-center items-center  ">
-          <div className="sm:p-0 sm:text-center p-10">
+          <div className="sm:p-0 sm:text-center p-7">
             <HeadOne extra="  " text={""}>
               It’s not just what technology can
               do but what people think it should do.

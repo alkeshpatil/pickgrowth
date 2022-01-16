@@ -7,7 +7,7 @@ import amfi from "../../assets/amfi.png";
 export default function Fotter() {
   return (
     <div className=" tracking-wider font-body text-white h-1/2">
-      <div className="flex flex-col sm:flex-row sm:h-24 p-10 justify-between bg-purple-700 sm:rounded-md w-full items-center ">
+      <div className="flex flex-col sm:flex-row sm:h-24 p-7 justify-between bg-purple-700 sm:rounded-md w-full items-center ">
         <div className=" ">
           <span className="font-semibold font-body">
             Ⓒ 2018 - {new Date().getFullYear()} Pick Growth .{" "}
@@ -21,7 +21,7 @@ export default function Fotter() {
           <Image src={playstore} height={50} objectFit="contain" />
         </div>
       </div>
-      <div className=" font-light sm:mt-5 p-10 sm:p-0 text-gray-400">
+      <div className=" font-light sm:mt-5 p-7 sm:p-0 text-gray-400">
         Mutual fund investments are subject to market risks. Please read the
         scheme information and other related documents carefully before
         investing. Past performance is not indicative of future returns. Please
@@ -33,7 +33,7 @@ export default function Fotter() {
         the use of, or on the reliance of its product or related services. Terms
         and conditions of the website are applicable.
       </div>
-      <div className=" flex items-center p-10 sm:p-0  justify-between">
+      <div className=" flex items-center p-7 sm:p-0  justify-between">
         <div className=" flex mt-6 mb-5">
           <div className=" flex flex-col   mr-5">
             <Image src={bse} height={50} width={50} objectFit="contain" />
