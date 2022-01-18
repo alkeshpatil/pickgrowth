@@ -17,8 +17,8 @@ function Navbar({ children }) {
 
         <div className=" sm:w-1/2 p-7 h-full flex justify-evenly text-sm cursor-pointer  items-center">
           {socialmedia.map((media, index) => (
-            <Link href={media.link} className=" cursor-pointer" >
-            <Image key={index} src={media.img} />
+            <Link href={media.link} className=" cursor-pointer">
+              <Image key={index} src={media.img} />
             </Link>
           ))}
         </div>

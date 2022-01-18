@@ -18,9 +18,9 @@ function SnapThree() {
   console.log(image);
   return (
     <>
-      <div className="h-28 sm:h-0 w-full"></div>
+      <div className="h- sm:h-0 w-full"></div>
 
-      <div className="snap-center pt-24 sm:pt-0  text-white justify- sm:text-left text- sm:p-0 flex flex-col sm:flex-row h-screen  ">
+      <div className="snap-center sm:mb-0  pt-24 sm:pt-0  text-white justify- sm:text-left text- sm:p-0 flex flex-col sm:flex-row   ">
         <div className="sm:w-1/2  w-full p-7 sm:p-0 flex flex-col  justify-center  ">
           <div className=" sm:mb-4">
             <HeadOne text={""}> Make best out of your money</HeadOne>

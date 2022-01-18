@@ -9,8 +9,7 @@ function Snap({ scrollFun }) {
       <div className="h-28 sm:h-0  snap-center w-full"></div>
       <div className=" w-full text-white  justify- sm:text-left flex sm:flex-row flex-col h-screen">
         <div className="sm:w-1/2 flex p-7 sm:p-0 flex-col  items-center justify-center  ">
-          <HeadOne text={""} extra={" "}>
-            {" "}
+          <HeadOne>          
             Investment just got smarter and reliable.
           </HeadOne>
           <span className="text-purple-700"></span>
@@ -22,7 +21,6 @@ function Snap({ scrollFun }) {
           <div className=" w-full ">
             <Buttons
               text=""
-              // onclick={() => scrollFun()}
               color=" bg-purple-700"
             >
               <Link href="#get-started" scroll={true}>

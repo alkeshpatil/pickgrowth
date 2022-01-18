@@ -22,7 +22,9 @@ function SnapTwo() {
 
           <Image src={snap2} className="mt-10" />
           </div>
-          <Buttons text={"Download"} color={" bg-purple-700 "} />
+         
+         
+          {/* <Buttons text={"Download"} color={" bg-purple-700 "} /> */}
         </div>
       </div>
     </div>

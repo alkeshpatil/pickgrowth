@@ -6,7 +6,7 @@ export default function SnapSix({ setRef }) {
     <div id="get-started" className="snap-center" ref={setRef}>
       <div className="h-28 sm:h-0 w-full"></div>
 
-      <div className=" w-full h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
+      <div className=" w-full sm:mb-0 mb-10 sm:h-screen text-white  justify- sm:text-left flex sm:flex-row flex-col ">
         <div className="sm:w-1/2 flex p-7 sm:p-0 flex-col    justify-center ">
           <HeadOne text="" extra={" text-left"}>
             How to get started?
@@ -20,8 +20,12 @@ export default function SnapSix({ setRef }) {
             Just fill in the Contact Form. Once we receive your interest, we
             will schedule a call with you. Understand your income, ongoing
             investments and financial goals. After analysing your profile, we
-            propose various investment options custom tailor made for you. <br />
-            <span className="font-semibold text-white">We help you set up all documentation and onboard to Pick Growth Mobile App.</span>
+            propose various investment options custom tailor made for you.{" "}
+            <br />
+            <span className="font-semibold text-white">
+              We help you set up all documentation and onboard to Pick Growth
+              Mobile App.
+            </span>
           </p>
           <div className=" w-full">
             {/* <Buttons text="Download and try" color=" bg-gray-700" /> */}
