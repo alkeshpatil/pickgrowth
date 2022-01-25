@@ -17,6 +17,7 @@ export default function Home() {
       <SnapFive />
       <SnapSix />
       {/* <SnapSeven /> */}
+
       <Fotter />
     </div>
   );
